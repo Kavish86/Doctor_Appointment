@@ -3,10 +3,19 @@
     
 }
 
+header {
+    text-align: center;
+}
+
 body {
-    background-image: url("./pic3.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    margin: 0%;
+}
+
+section {
+    background-color: rgb(242, 162, 239);
+    padding: 10px;
+    margin: 2%;
+    border-radius: 5px;
 }
 
 .sec li {
@@ -38,10 +47,6 @@ input[type=submit] {
     cursor: pointer;
 }
   
- 
-input[type=submit]:hover {
-    background-color: #45a049;
-}
   
 .container {
     display: flex;
